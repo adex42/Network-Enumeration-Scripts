@@ -1,4 +1,3 @@
-````markdown
 #  Reconnaissance Scripts
 
 This repository contains two Bash scripts designed to automate different types of network and host reconnaissance using **Nmap** (and optionally **enum4linux** for host enumeration).
@@ -117,4 +116,3 @@ For every live host discovered, the script creates a dedicated host directory (`
 ###  Next Steps
 
 After the script completes, review the output directory. Start by examining the **Nmap XML (`.xml`)** and **grepable (`.gnmap`)** files for an overview of services, and then dive into the per-host directories for deep enumeration results.
-````
